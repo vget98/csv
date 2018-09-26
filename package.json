@@ -1,0 +1,16 @@
+{
+  "name": "truss",
+  "version": "1.0.0",
+  "description": "_This is one of the steps in the Truss interview process. If you've stumbled upon this repository and are interested in a career with Truss, [check out our jobs page](https://truss.works/jobs)._",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.0.0",
+    "fs": "0.0.1-security"
+  }
+}
