@@ -6,8 +6,8 @@ const csv = require('csv-parser');
 const convertTimeZone = (str) => {
   const offset = -5.0; // SUBTRACT THIS OFFSET
   const date = new Date(str);
-  const est = utc = date.getTime() + (date.getTimezoneOffset() * 60000);
-  return new Date(est + (3600000*offset));
+  const est = date.getTime() + (date.getTimezoneOffset() * 60000);
+  return new Date(est + (3600000 * offset));
 };
 
 const converTimeToSeconds = (str) => {
